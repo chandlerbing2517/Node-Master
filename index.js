@@ -1,6 +1,6 @@
 const http= require ('http');
-const server=http.createServer(() =>{
-  console.log("Served");
+const server=http.createServer((req,res) =>{
+  res.end("Noice");
 });
 server.listen(5001, () =>
 {
