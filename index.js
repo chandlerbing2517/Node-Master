@@ -8,8 +8,6 @@ const server=http.createServer((req,res) =>{
   res.end('<h1>Not Found</h1>');
     else if(req.url==='/small')
   res.end('<h1>Not Found</h1>');
-    else if(req.url==='/ok')
-  res.end('<h1>Not Found</h1>');
     else 
   res.end('<h1>Not Found</h1>');
 });
